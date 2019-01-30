@@ -17,7 +17,7 @@ attach(df)
 boxplot(freq, first, second, finalDecision,names=c("Frequency","First","Second", "Final Decision"))
 
 # Create a boxplot for bloodp.
-boxplot(hospital_patient_data$bloodp)
+boxplot(bloodp)
 
 # Create a histogram for each dataset.
 hist(freq)
