@@ -7,3 +7,4 @@ Not all modules produce code. The ones that do will be posted here.
 * [Module 4](mod4.R) Programming Structure in R (data [here](hospital_patient_data.csv), visualization [here](/images/hospital_boxplot_decision.jpeg))
 * [Module 6](mod6.R) Doing Math in R - Part 2
 * [Module 7](mod7.R) R Objects: S3 vs. S4
+* [Module 8](mod8.R) Input/Output, string manipulation and plyr package (data [here](Assignment_6_Dataset.txt))
