@@ -25,5 +25,5 @@ write.table(StudentAverage, file= "~/Students_Gendered_Mean.csv", quote=FALSE, r
 iNames = subset(dataset6,grepl("[iI]",dataset6$Name))
 
 # Output to another file. 
-write.table(iNames,file ="DataSubset.csv", quote=FALSE, row.names = FALSE,sep=",")
+write.table(iNames,file ="~/DataSubset.csv", quote=FALSE, row.names = FALSE,sep=",")
 
