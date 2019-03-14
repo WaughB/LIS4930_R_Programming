@@ -8,3 +8,4 @@ Not all modules produce code. The ones that do will be posted here.
 * [Module 6](mod6.R) Doing Math in R - Part 2
 * [Module 7](mod7.R) R Objects: S3 vs. S4
 * [Module 8](mod8.R) Input/Output, string manipulation and plyr package (data [here](Assignment_6_Dataset.txt))
+* [Module 9](mod9.R) Visualization in R, visualization [1](/images/mod9_basicPlot.jpeg) , [2](/images/mod9_latticePlot.jpeg) , [3](/images/mod9_ggplotPlot.jpeg)
