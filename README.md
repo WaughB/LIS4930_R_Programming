@@ -11,3 +11,4 @@ Not all modules produce code. The ones that do will be posted here.
 * [Module 9](mod9.R) Visualization in R, visualization [1](/images/mod9_basicPlot.jpeg) , [2](/images/mod9_latticePlot.jpeg) , [3](/images/mod9_ggplotPlot.jpeg)
 * [Module 10](mod10) Building your own R package
 * [Module 11](mod11.R) Debugging in R
+* [Module 12](mod12.Rmd) Markdown in R. Markdown document found [here](mod12.html).
