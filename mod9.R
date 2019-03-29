@@ -9,7 +9,7 @@ require(lattice)
 require(readr)
 
 # Get the data in. 
-data <- read_csv("Documents/LIS4930_VA/Presidential_Approval.csv", col_types = cols(X1 = col_skip(), iraq.war = col_logical()))
+data <- read_csv("/home/brett/LIS4930_Visual_Analytics/data/Presidential_Approval.csv", col_types = cols(X1 = col_skip(), iraq.war = col_logical()))
 
 # Create a plot with no additional packages. 
 plot(x=data$year, y=data$approve, main = "Presidential Approval by Year", sub = "based on data from: https://cran.r-project.org/web/packages/lattice/index.html", xlab = "Year", ylab = "U.S. Presidential Approval (%)")
