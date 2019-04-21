@@ -1,0 +1,10 @@
+Package: lazyML
+Type: Package
+Title: lazyML
+Version: 0.1.0
+Author: Brett W. 
+Maintainer: Brett W. <waughb@mail.usf.edu>
+Description: Assortment of models that are commonly used. Since most of these models are run with default values, and run several times this package should expedite the coding process.
+License: MIT License
+Encoding: UTF-8
+LazyData: true
