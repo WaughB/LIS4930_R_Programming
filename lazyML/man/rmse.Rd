@@ -27,6 +27,7 @@ Often will be found by model$residuals.
 Brett W. <waughb@mail.usf.edu>
 }
 \examples{
+load("~/lazyML/data/iris.Rdata")
 dataframe <- data.frame(iris)
 formula <- Sepal.Length ~ Sepal.Width
 model <- lm(formula, dataframe)

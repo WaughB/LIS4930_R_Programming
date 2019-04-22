@@ -33,6 +33,7 @@ Process for grid search was based off of the process found here: https://rpubs.c
 Brett W. <waughb@mail.usf.edu>
 }
 \examples{
+load("~/lazyML/data/iris.Rdata")
 dataframe <- data.frame(iris)
 formula <- Sepal.Length ~ Sepal.Width + Petal.Length +Petal.Width
 lazySVM(dataframe, formula)

@@ -33,9 +33,10 @@ The formula used by the model to perform the calculation. This has a prediction 
 Brett W. <waughb@mail.usf.edu>
 }
 \examples{
+load("~/lazyML/data/iris.Rdata")
 dataframe <- data.frame(iris)
 formula1 <- Sepal.Length ~ Sepal.Width
-formula2 <- Sepal.Length ~ Sepal.Width + Petal.Length 
+formula2 <- Sepal.Length ~ Sepal.Width + Petal.Length
 formula3 <- Sepal.Length ~ Sepal.Width + Petal.Length + Petal.Width
 lazyLM(dataframe, formula1, formula2, formula3)
 }
